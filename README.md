@@ -1,4 +1,4 @@
-# RobotArm Python Code for Assignment 3
+# Robot Arm Python Code for Assignment 3
 5.Write python functions that computes the spatial and body Jacobians as a function of robot joint angles.
 
 6.Write python functions to determine manipulability measures u1, u2, and u3.
