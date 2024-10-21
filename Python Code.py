@@ -144,3 +144,29 @@ if __name__ == "__main__":
     mass = 0.150  # 150 grams in kilograms
     torques = compute_gravity_torque(J_s, mass)
     print(f"\nRequired Torques to Hold 150g Object: {torques}")
+
+Output:
+runfile('/Users/nandani/Desktop/Python Code.py', wdir='/Users/nandani/Desktop')
+
+Spatial Jacobian J_s:
+ [[ 0.         -0.47942554  0.47415988]
+ [ 0.          0.87758256  0.25903472]
+ [ 1.          0.         -0.84147098]
+ [ 0.          0.         -0.47942554]
+ [ 0.          0.          0.87758256]
+ [ 0.          1.          0.        ]]
+
+Body Jacobian J_b:
+ [[ 0.          0.47942554  0.47415988]
+ [ 0.          0.87758256 -0.25903472]
+ [ 1.          0.          0.84147098]
+ [ 0.          0.          0.47942554]
+ [ 0.          0.          0.87758256]
+ [ 0.          1.          0.        ]]
+
+Manipulability Measures:
+ u1 = 1.6074, u2 = 2.1808, u3 = 0.7219
+
+Is the configuration singular? No
+
+Required Torques to Hold 150g Object: [-1.4715      0.          1.23822455]
